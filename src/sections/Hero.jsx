@@ -4,6 +4,7 @@ import gsap from "gsap";
 import { words } from "../constants/index.js";
 import Button from "../components/Button.jsx";
 import HeroExp from "../components/HeroModels/HeroExp.jsx";
+import AnimatedCounter from "../components/AnimatedCounter.jsx";
 
 const Hero = () => {
   useGSAP(() => {
@@ -74,6 +75,7 @@ const Hero = () => {
           </div>
         </figure>
       </div>
+      <AnimatedCounter />
     </section>
   );
 };
