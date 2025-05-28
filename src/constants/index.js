@@ -47,18 +47,18 @@ const logoIconsList = [
 const abilities = [
   {
     imgPath: "/images/seo.png",
-    title: "Quality Focus",
-    desc: "Delivering high-quality results while maintaining attention to every detail.",
+    title: "Full-Stack Proficiency",
+    desc: "Skilled in both frontend and backend development, with hands-on experience in building and maintaining web applications.",
   },
   {
     imgPath: "/images/chat.png",
-    title: "Reliable Communication",
-    desc: "Keeping you updated at every step to ensure transparency and clarity.",
+    title: "Reliable Communicator",
+    desc: "Able to clearly communicate technical concepts, collaborate effectively with teammates, and ask the right questions when needed.",
   },
   {
     imgPath: "/images/time.png",
-    title: "On-Time Delivery",
-    desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+    title: "Continuous Learner",
+    desc: "Driven by curiosity and committed to learning new technologies to stay updated and deliver better solutions.",
   },
 ];
 
