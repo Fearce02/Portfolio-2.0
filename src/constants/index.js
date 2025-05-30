@@ -122,8 +122,8 @@ const expCards = [
   {
     review:
       "Pranav consistently demonstrated a high level of quality and attention to detail in QA testing for AAA sports titles. His contributions improved game stability and the overall player experience.",
-    imgPath: "/images/logos/aaa.png",
-    logoPath: "/images/logos/EA-logo-short.png",
+    imgPath: "/images/logos/EAlong.png",
+    logoPath: "/images/logos/EAshort.png",
     title: "QA tester 2",
     date: "April 2022 - October 2023",
     responsibilities: [
@@ -136,8 +136,8 @@ const expCards = [
   {
     review:
       "Pranav contributed to the successful online performance of F1 2021 through diligent testing and issue resolution. His work helped ensure a seamless multiplayer experience for players.",
-    imgPath: "/images/logos/adf.png",
-    logoPath: "/images/logos/Codemasters-logo-short.png",
+    imgPath: "/images/logos/CMlong.png",
+    logoPath: "/images/logos/CMshort.png",
     title: "QA tester 1",
     date: "September 2021 - January-2022",
     responsibilities: [
