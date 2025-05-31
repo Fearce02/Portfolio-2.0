@@ -274,19 +274,13 @@ const testimonials = [
 
 const socialImgs = [
   {
-    name: "insta",
-    imgPath: "/images/insta.png",
-  },
-  {
-    name: "fb",
-    imgPath: "/images/fb.png",
-  },
-  {
-    name: "x",
-    imgPath: "/images/x.png",
+    name: "Github",
+    url: "https://github.com/Fearce02",
+    imgPath: "/images/TechStacklogos/GithubNew.png",
   },
   {
     name: "linkedin",
+    url: "https://www.linkedin.com/in/pranavkumbhar02/",
     imgPath: "/images/linkedin.png",
   },
 ];

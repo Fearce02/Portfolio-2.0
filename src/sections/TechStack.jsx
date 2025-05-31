@@ -52,29 +52,6 @@ const TechStack = () => {
             </div>
           ))}
         </div>
-        <br />
-        {/* <TitleHeader
-          title="Other Tools & Technologies"
-          sub="💡 Additional tools I'm comfortable working with"
-        />
-        <div className="tech-grid">
-          {techStackImgs.map((img) => (
-            <div
-              key={img.name}
-              className="card-border tech-card overlfow-hidden group xl:rounded-full rounded-lg"
-            >
-              <div />
-              <div className="tech-card-content">
-                <div className="tech-icon-wrapper">
-                  <img src={img.imgPath} alt={img.name} />
-                </div>
-                <div className="padding-x w-full">
-                  <p>{img.name}</p>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div> */}
       </div>
     </div>
   );
