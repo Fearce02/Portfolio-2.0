@@ -11,10 +11,6 @@ const navLinks = [
     name: "Skills",
     link: "#skills",
   },
-  {
-    name: "Testimonials",
-    link: "#testimonials",
-  },
 ];
 
 const words = [
@@ -62,6 +58,74 @@ const abilities = [
   },
 ];
 
+const Skills = [
+  {
+    category: "Database, Cache & Queues",
+    stack: [
+      { name: "MySQL", icon: "/images/TechStacklogos/MySQL.png" },
+      { name: "MongoDB", icon: "/images/TechStacklogos/MongoDB.png" },
+      { name: "PostgreSQL", icon: "/images/TechStacklogos/PostgreSQL.png" },
+      { name: "Redis", icon: "/images/TechStacklogos/redis.png" },
+    ],
+  },
+  {
+    category: "Frontend",
+    stack: [
+      { name: "React", icon: "/images/logos/react.png" },
+      { name: "Tailwind CSS", icon: "/images/TechStacklogos/Tailwind.png" },
+      { name: "Three.js", icon: "/images/logos/three.png" },
+      { name: "HTML5", icon: "/images/TechStacklogos/HTML.png" },
+      { name: "CSS3", icon: "/images/TechStacklogos/CSS.png" },
+    ],
+  },
+  {
+    category: "Backend",
+    stack: [
+      { name: "Node.js", icon: "/images/TechStacklogos/NodeJS.png" },
+      { name: "Express.js", icon: "/images/TechStacklogos/ExpressJS.png" },
+      { name: "FastAPI", icon: "/images/TechStacklogos/FastAPI.png" },
+    ],
+  },
+  {
+    category: "Cloud and DevOps",
+    stack: [
+      { name: "AWS", icon: "/images/TechStacklogos/AWS.png" },
+      { name: "Docker", icon: "/images/TechStacklogos/Docker.png" },
+      { name: "Kubernetes", icon: "/images/TechStacklogos/Kubernetes.png" },
+      { name: "vercel", icon: "/images/TechStacklogos/Vercel.png" },
+    ],
+  },
+  {
+    category: "Programming Languages",
+    stack: [
+      { name: "Python", icon: "/images/TechStacklogos/Python.png" },
+      { name: "JavaScript", icon: "/images/TechStacklogos/JS.png" },
+      { name: "TypeScript", icon: "/images/TechStacklogos/TS.png" },
+      { name: "C++", icon: "/images/TechStacklogos/C++.png" },
+      { name: "C#", icon: "/images/TechStacklogos/Chash.png" },
+    ],
+  },
+  {
+    category: "Game Development",
+    stack: [
+      { name: "Unity", icon: "/images/TechStacklogos/Unity.png" },
+      {
+        name: "Unreal Engine",
+        icon: "/images/TechStacklogos/UnrealEngine.png",
+      },
+    ],
+  },
+  {
+    category: "VCS, Editor and Terminal",
+    stack: [
+      { name: "GitHub", icon: "/images/TechStacklogos/Github.png" },
+      { name: "VSCode", icon: "/images/TechStacklogos/VSCODE.png" },
+      { name: "Bash", icon: "/images/TechStacklogos/bash.png" },
+      { name: "Postman", icon: "/images/TechStacklogos/Postman.png" },
+    ],
+  },
+];
+
 const techStackImgs = [
   {
     name: "React Developer",
@@ -87,31 +151,31 @@ const techStackImgs = [
 
 const techStackIcons = [
   {
-    name: "React Developer",
+    name: "ReactJS",
     modelPath: "/models/react_logo-transformed.glb",
     scale: 1,
     rotation: [0, 0, 0],
   },
   {
-    name: "Python Developer",
+    name: "Python",
     modelPath: "/models/python-transformed.glb",
     scale: 0.8,
     rotation: [0, 0, 0],
   },
   {
-    name: "Backend Developer",
+    name: "NodeJS",
     modelPath: "/models/node-transformed.glb",
     scale: 5,
     rotation: [0, -Math.PI / 2, 0],
   },
   {
-    name: "Interactive Developer",
+    name: "ThreeJS",
     modelPath: "/models/three.js-transformed.glb",
     scale: 0.05,
     rotation: [0, 0, 0],
   },
   {
-    name: "Project Manager",
+    name: "Git",
     modelPath: "/models/git-svg-transformed.glb",
     scale: 0.05,
     rotation: [0, -Math.PI / 4, 0],
@@ -239,4 +303,5 @@ export {
   techStackIcons,
   techStackImgs,
   navLinks,
+  Skills,
 };
