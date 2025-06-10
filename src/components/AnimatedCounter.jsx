@@ -1,6 +1,5 @@
 import React from "react";
 import { counterItems } from "../constants/index.js";
-import { div } from "three/tsl";
 import CountUp from "react-countup";
 
 const AnimatedCounter = () => {

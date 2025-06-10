@@ -55,7 +55,7 @@ const ShowcaseSection = () => {
           {/* LEFT: Showcase Content */}
           <div className="first-project-wrapper" ref={project1Ref}>
             <div className="image-wrapper">
-              <img src="/images/project1.png" alt="Noted" />
+              <img src="/images/Noted.jpeg" alt="Noted" />
             </div>
             <div className="text-content">
               <h2>
@@ -74,13 +74,13 @@ const ShowcaseSection = () => {
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={project2Ref}>
               <div className="image-wrapper bg-[#ffefdb]">
-                <img src="/images/project2.png" alt="Diet-Tracker" />
+                <img src="/images/Diet_track.jpg" alt="Diet-Tracker" />
               </div>
               <h2 className="">Diet Tracker</h2>
             </div>
             <div className="project" ref={project3Ref}>
               <div className="image-wrapper bg-[#ffe7eb]">
-                <img src="/images/project3.png" alt="Discord-BOT" />
+                <img src="/images/Discord.jpg" alt="Discord-BOT" />
               </div>
               <h2 className="">Discord Bots</h2>
             </div>
