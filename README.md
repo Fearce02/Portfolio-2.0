@@ -7,7 +7,7 @@ A sleek and interactive portfolio website built with **React**, **TailwindCSS**,
 - **React** – Component-based frontend library
 - **TailwindCSS** – Utility-first CSS for fast and responsive styling
 - **Three.js** – 3D graphics and animations
-- **GSAP (GreenSock)** – Smooth animations and transitions
+- **GSAP** – Smooth animations and transitions
 - **EmailJS** – Contact form email integration without a backend
 
 ## 📸 Features
